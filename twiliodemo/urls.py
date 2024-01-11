@@ -21,6 +21,6 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('sms/', include('sms.urls')),
     path('whatsapp/', include('whatsapp.urls')),
-     path('call/', include('call.urls')),
+    path('call/', include('call.urls')),
 ]
 

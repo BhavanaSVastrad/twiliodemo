@@ -8,7 +8,7 @@ def send_whatsapp(request):
 
     message = client.messages.create(
                               from_='whatsapp:' + settings.TWILIO_WHATSAPP_NUMBER,
-                              body='Hello, there!',
+                              body='Hii There!',
                               to='whatsapp:+918951897993'
                           )
 
